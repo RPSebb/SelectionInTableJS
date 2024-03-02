@@ -190,9 +190,9 @@ boundingBox.style.display = "none";
 
 const table = createTable();
 
-table.addEventListener('mousedown', handleMouseDown);
-table.addEventListener('mouseup'  , handleMouseUp  );
-table.addEventListener('mousemove', handleMouseMove);
+document.addEventListener('mousedown', handleMouseDown);
+document.addEventListener('mouseup'  , handleMouseUp  );
+document.addEventListener('mousemove', handleMouseMove);
 
 document.body.appendChild(selectionBox);
 document.body.appendChild(boundingBox);
