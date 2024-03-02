@@ -1,0 +1,48 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+thead {
+  background-color: rgb(236, 180, 76);
+}
+
+thead th:not(:first-child) {
+  width: 5000px;
+}
+
+th, td {
+  border: 1px solid rgb(160 160 160);
+}
+
+tbody td {
+  text-align: center;
+}
+
+thead tr th {
+  padding: 25px 0px;
+}
+
+tbody tr th {
+  text-align: right;
+}
+
+#selectionBox {
+  position : absolute;
+  border: 1px solid rgb(73, 156, 189);
+  background-color: hsla(202, 61%, 63%, 0.185);
+  pointer-events: none;
+  z-index: 999;
+}
+
+#boundingBox {
+  position : absolute;
+  border: 1px solid rgb(73, 156, 189);
+  background-color: hsla(150, 61%, 63%, 0.185);
+  pointer-events: none;
+  z-index: 999;
+}
