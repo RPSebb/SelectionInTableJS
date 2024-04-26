@@ -40,7 +40,7 @@ function createTable() {
                 cell.rowSpan = Math.round(60 / step);
                 cell.style.verticalAlign = "top";
             } else {
-                // cell.textContent = x + y;
+                cell.textContent = x + y;
             }
             row.appendChild(cell);
         }
@@ -165,7 +165,7 @@ function showCellContent() {
     }
 
     text += '}\n';
-    console.log(text)
+    console.log(text);
 }
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday", "Sunday"];
